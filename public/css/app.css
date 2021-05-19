@@ -1,0 +1,162 @@
+body {
+    background:rgb(251, 249, 246);
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    background:rgb(255, 233, 205);
+    padding: 20px;
+}
+.text_container{
+    background: cornsilk;
+    padding:20px;
+}
+.page{
+    min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	overflow:hidden;
+}
+.container{
+    display: flex;
+	flex-direction: row;
+    justify-content: space-around;
+    width:100%;
+}
+.container2{
+    margin-top: 50px;
+    display: flex;
+	flex-direction: row;
+    justify-content: space-around;
+    width:100%;
+}
+.sideContent{
+    margin-top: 100px;
+    width:30%;
+
+}
+.mainContent{
+    margin-top: 100px;
+    width:40%;
+}
+.inputs{
+    width:250px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 8px;
+}
+.form{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+
+}
+.inputBlock{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+    flex-wrap: wrap;
+}
+
+.submitButton{
+    margin-top: 10px;
+    width:250px;
+    height:45px;
+    border-radius: 5px;
+    background-color: forestgreen;
+}
+.submitButton:hover{
+    margin-top: 10px;
+    width:250px;
+    height:45px;
+    border-radius: 5px;
+    background-color: rgb(75, 255, 75);
+    cursor: pointer;
+}
+.message{
+    width:250px;
+    height: 100px;
+    border-radius: 5px;
+    padding:10px;
+}
+.inputBlock label{
+    cursor: pointer;
+}
+.messageBlock{
+    display:flex;
+    flex-direction: column;
+    background:rgb(189, 218, 219);
+    margin:20px;
+    padding:20px;
+}
+.messageDetailsButton{
+    width:200px;
+    height: 30px;
+    background: rgb(15, 159, 255);
+    text-decoration: none;
+    padding:20px;
+    border-radius: 5px;
+    color:black;
+    text-align: center;
+    margin-top: 10px;
+}
+.messageDetailsButton:hover{
+    width:200px;
+    height: 30px;
+    background: rgb(15, 159, 255);
+    text-decoration: none;
+    padding:20px;
+    border-radius: 5px;
+    color:black;
+    text-align: center;
+    margin-top: 10px;
+    opacity: .5;
+}
+.messageEditButton{
+    width:200px;
+    height: 30px;
+    background: rgb(255, 191, 15);
+    text-decoration: none;
+    padding:20px;
+    border-radius: 5px;
+    color:black;
+    text-align: center;
+    margin-top: 10px;
+}
+.messageEditButton:hover{
+    width:200px;
+    height: 30px;
+    background: rgb(255, 191, 15);
+    text-decoration: none;
+    padding:20px;
+    border-radius: 5px;
+    color:black;
+    text-align: center;
+    margin-top: 10px;
+    opacity: .5;
+}
+
+.messageDeleteButton{
+    width:200px;
+    height: 30px;
+    background: rgb(255, 15, 15);
+    text-decoration: none;
+    padding:20px;
+    border-radius: 5px;
+    color:black;
+    text-align: center;
+    margin-top: 10px;
+}
+.messageDeleteButton:hover{
+    width:200px;
+    height: 30px;
+    background: rgb(255, 15, 15);
+    text-decoration: none;
+    padding:20px;
+    border-radius: 5px;
+    color:black;
+    text-align: center;
+    margin-top: 10px;
+    opacity: .5;
+}
